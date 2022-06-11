@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #f0f0f0;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/grid.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/reponsive.css">
+    <link rel="stylesheet" href="../CSS/giohang.css">
+    <link rel="stylesheet" href="../font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <div class="App ">
+        <div class="Header">
+            <div class="grid  wide">
+                <div class="navbar hide-on-tablet-mobile">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                            Cam kết giá tốt</li>
+                        <li class="navbar__list-item">
+                                <a href="" class="navbar__list-item-link">
+                                    <i class="fa-solid fa-truck"></i>
+                                    Miễn phí vận chuyển
+                                </a>
+                        </li>
+                        <li class="navbar__list-item">
+                                <a href="" class="navbar__list-item-link">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    Bảo hành tận nơi
+                                </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <span class="navbar__list-title--no">Kết nối</span>
+                            <a  class="navbar__list-icons-link" href="https://www.facebook.com/baoanh.bui.3363" target="blank">
+                                <i class="navbar__list-icons fa-brands fa-facebook">
+                                    <p class="navbar__list-icons-mesenger">Kết nối facebook</p>
+                                </i>
+                            </a>
+                            <a  class="navbar__list-icons-link" href="https://www.instagram.com/baoanh0911/saved/" target="blank">
+                                <i class="navbar__list-icons fa-brands fa-instagram">
+                                    <p class="navbar__list-icons-mesenger">Kết nối instagram</p>
+                                </i>
+                            </a>
+                        </li>  
+                        <li class="navbar__list-item navbar__list-item--Strong">
+                            <i class="fa-solid fa-user-plus"></i>
+                            <a href="../HTML/dangky.html"> Đăng ký </a>
+                        </li>
+                        <li class="navbar__list-item navbar__list-item--Strong">
+                            <i class="fa-solid fa-user"></i>
+                            <a href="../HTML/login.html" >Đăng nhập</a>
+                        </li>   
+                    </ul>    
+                </div>
+                <div class="Header-with-search">
+                    <div class="Header__logo">
+                        <img class="Header__logo-img"  src="../IMG/logodienmayxanh.png">
+                    </div>
+                    <div class="Header__search hide-on-mobile">
+                        <input type="text" class="Header__search-input" placeholder="Nhập tên TiVi... cần tìm">
+                        <button class="Header__search-btn">
+                            <i class="Header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="Header__cart">
+                        <i class="Header__cart-icon fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="Header-navbar hide-on-tablet-mobile">
+                <div class="grid  wide">
+                    <ul class="Header-navbar__list">
+                        <li class="Header-navbar__item">
+                            <a class="Header-navbar__item-link" href="">
+                                <i class="navbar__list-icons fa-solid fa-list"></i>
+                                Danh mục sản phẩm
+                            </a>
+                            <ul class="submenu">
+                                <li class="submenu__item"><a class="submenu__item-link" href=""><i class="navbar__list-icons fa-solid fa-tv"></i>Tivi SamSung</a></li>
+                                <li class="submenu__item"><a class="submenu__item-link" href=""><i class="navbar__list-icons fa-solid fa-tv"></i>Tivi SoNy</a></li>
+                                <li class="submenu__item"><a class="submenu__item-link" href=""><i class="navbar__list-icons fa-solid fa-tv"></i>TiVi LG</a></li>
+                                <li class="submenu__item"><a class="submenu__item-link" href=""><i class="navbar__list-icons fa-solid fa-tv"></i>Tivi TCL- Casper</a></li>
+                                <li class="submenu__item"><a class="submenu__item-link" href=""><i class="navbar__list-icons fa-solid fa-tv"></i>Tivi Cao Cấp - Máy Chiếu</a></li>
+                                <li class="submenu__item">
+                                    <a class="submenu__item-link" href="">
+                                    <i class="navbar__list-icons fa-solid fa-headphones-simple"></i>
+                                    Loa- Âm Thanh <span class="sp-right">
+                                        <i class=" fas fa-caret-right"></i></span>
+                                    </a>
+                                    <ul class="submenu__item-list">
+                                        <li><a href="">Loa kéo</a></li>
+                                        <li><a href="">Loa SoNy</a></li>
+                                        <li><a href="">Dàn Karaoke - Micro - Amply</a></li>
+                                        <li><a href="">Loa thanh</a></li>
+                                        <li><a href="">Loa SamSung</a></li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__item-link" href="">
+                                    <i class="navbar__list-icons fa-solid fa-headphones-simple"></i>
+                                    Phụ Kiện Tivi <span class="sp-right">
+                                        <i class="fas fa-caret-right"></i></span>
+                                    </a>
+                                    <ul class="submenu__item-list">
+                                        <li><a href="">Cáp HDMI, cáp Tivi
+                                        <li><a href="">Khung treo Tivi</a></li>
+                                        <li><a href="">Điều khiển TV</a></li>
+                                        <li><a href="">Android TV Box</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="Header-navbar__item">
+                            <a class="Header-navbar__item-link"href="">
+                                <i class="navbar__list-icons fa-solid fa-phone-volume"></i>
+                                Bán hàng trực tuyến
+                            </a>
+                            </li>
+                        <li class="Header-navbar__item">
+                            <a class="Header-navbar__item-link" href="">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                Mua trả góp
+                            </a>
+                        </li>
+                        <li class="Header-navbar__item">
+                            <a class="Header-navbar__item-link" href="">
+                                <i class="fa-solid fa-cart-arrow-down"></i>
+                                Khuyến mãi</a>
+                            </li>
+                        <li class="Header-navbar__item">
+                            <a class="Header-navbar__item-link" href="">
+                            <i class="fa-solid fa-newspaper"></i>
+                            Tin tức
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=" Container_cart">
+            <div class="grid wide">
+                <div class="Cart_content" style="padding-top: 10px;">
+                   <a href="../HTML/Index.html">
+                       <i class="fa-solid fa-angle-left"></i> 
+                       Mua thêm sản phẩm khác
+                    </a>
+                </div>
+                <div class="middlecart">
+                    <div class="middlecart1" id="mycart">
+                        <!-- <div class="middlecart1-two">
+                            <div class="middlecart1_img">
+                                <img src="../IMG/sanphambc1.jpg" alt="">
+                            </div>
+                            <div class="middlecart1_content">
+                                Samsung Smart TV Crystal UHD UA55AU8100    
+                            </div>
+                            <div class="middlecart1_price">
+                                <i class="fa-solid fa-trash-can"></i>
+                                <div class="price_before">
+                                    21.000.000đ
+                                </div>
+                                <div class="price_after">
+                                    17.100.000đ
+                                </div>
+                                <div class="product_countor">
+                                    <div class="countor_minus">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+                                    <div class="countor_content">
+                                        1
+                                    </div>
+                                    <div class="countor_plus">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="middlecart1-two">
+                            <div class="middlecart1_img">
+                                <img src="../IMG/sanphambc1.jpg" alt="">
+                            </div>
+                            <div class="middlecart1_content">
+                                Samsung Smart TV Crystal UHD UA55AU8100    
+                            </div>
+                            <div class="middlecart1_price">
+                                <i class="fa-solid fa-trash-can"></i>
+                                <div class="price_before">
+                                    21.000.000đ
+                                </div>
+                                <div class="price_after">
+                                    17.100.000đ
+                                </div>
+                                <div class="product_countor">
+                                    <div class="countor_minus">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+                                    <div class="countor_content">
+                                        1
+                                    </div>
+                                    <div class="countor_plus">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <hr class="dongke">
+                    <div class="cart_total">
+                        <div class="cart_total-box">
+                            <div class="cart_total-sub" id="tamtinh">
+                                <div class="lable">Tạm tính</div>
+                                <div class="content"><span id="tamtinhtien"></span></div>
+                            </div>
+                            <div class="cart_total-promotion">
+                                <div class="lable">Khuyến mãi</div>
+                                <div class="content">0đ</div>
+                            </div>
+                            <div class="cart_total-delivery">
+                                <div class="lable">Phí vận chuyển</div>
+                                <div class="content">0đ</div>
+                            </div>
+                        </div>
+                        <div class="cart_total-content" id="tongtien">
+                            <div class="lable" style="font-weight: 600;">Tổng tiền</div>
+                            <div class="content" style="font-weight: 700;font-size: 1.8rem;color:#00a2ff;"><span id="tien"></span></div>
+                        </div>
+                        <div class="price_include-vat">
+                            <sup>*</sup>
+                             Giá trên đã bao gồm VAT và phí vận chuyển.
+                        </div>
+                        <div class="cart_khuyenmai">
+                            <div class="cart_khuyenmai-box">
+                                <div class="input_wrapper">
+                                    <input style="border-color:#00a2ff;" type="text" class="form-control" placeholder="Nhập vào mã giảm giá">
+                                </div>
+                                <button type="submit" class="cart_submit">
+                                    <span>Áp dụng</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="dongke">
+                    <div class="infor_customer">
+                        <h4>Thông tin khách hàng</h4>
+                        <div class="fillinform">
+                            <div class="fillname">
+                                <input type="text" class="form_fillname" placeholder="Họ và tên...">
+                            </div>
+                            <div class="fillnamephonenumber ">
+                                <input type="text" class="form_fillnamephonenumber" placeholder="Số điện thoại...">
+                            </div>   
+                        </div>
+                    </div> 
+                    <div class="choosegetgoods">
+                        <h4>chọn cách thức nhận hàng</h4>
+                        <form action="" class="choosegetgoods_form">
+                            <input type="radio" id="giaohang" name="fav_language" value="HTML" >
+                            <label for="html">Giao hàng tận nơi</label><br>
+                            <input type="radio" id="nhanhang" name="fav_language" value="CSS" >
+                            <label for="css">Nhận tại siêu thị</label><br>
+                        </form>
+                        <div class="choose_content">
+                            <span> Nhập địa chỉ để biết thời gian nhận hàng và phí vận chuyển (nếu có)</span>
+                            <div class="choose_content-input">
+                                <input type="text" class="content_input1" placeholder="Tỉnh...">
+                                <input type="text" class="content_input1" style="margin-left: 10px;" placeholder="Huyện...">
+                            </div>
+                            <div class="choose_content-input">
+                                <input type="text" class="content_input1" placeholder="Phường/Xã...">
+                                <input type="text" class="content_input1" style="margin-left: 10px;" placeholder="Số nhà,tên đường...">
+                            </div>
+                        </div>
+                    </div> 
+                    <hr class="dongke"> 
+                    <div class="payments">
+                        <h4>Chọn hình thức thanh toán</h4>
+                        <form action="" class="formthanhtoan">
+                            <div class="payments1">
+                                <input type="radio" id="tienmat" name="fav_language" value="HTML" >
+                                <label for="html">Thanh toán tiền mặt khi nhận hàng (tiền mặt / quẹt thẻ ATM, Visa, Master)</label><br>
+                            </div>
+                            <div class="payments1">
+                                <input type="radio" id="chuyenkhoan" name="fav_language" value="CSS" >
+                                <label for="css">Thanh toán qua chuyển khoản qua tài khoản ngân hàng (khuyên dùng)</label><br>
+                            </div>
+                            <div class="inputstk ">
+                                <input type="text" class="stk" placeholder="Nhập số tài khoản ngân hàng...">
+                            </div>   
+                        </form> 
+                        <button type="button" class="submitoder">
+                            <b> ĐẶT HÀNG</b>
+                        </button>   
+                    </div>
+                </div>
+                <a href="" class="okdk">
+                    <P>Bằng cách đặt hàng, bạn đồng ý với Điều khoản sử dụng của Dienmayxanh</P>
+                </a>
+            </div>
+        </div>    
+    </div>
+    <script src="../JS/sliderproduct.js"></script>
+</body>
+</html>
